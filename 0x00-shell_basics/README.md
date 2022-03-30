@@ -1,1 +1,4 @@
-A folder that contains an excutable script to print the absolute path name of the current working directory
+# A folder that contains excutable scripts
+* 0-current_working_directory
+* 1-listit
+
