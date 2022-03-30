@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -almv
+ls -almvH
