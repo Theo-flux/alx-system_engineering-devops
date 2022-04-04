@@ -1,2 +1,2 @@
-#!/bin/baic
+#!/bin/bash
 head /etc/passwd
