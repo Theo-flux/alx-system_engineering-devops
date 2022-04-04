@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -name *".git" -printf "%f\n" | cut -d . -f1 | LC_ALL=C sort -f
