@@ -1,3 +1,2 @@
 #!/bin/baic
-cat /etc/passwd | head -n 10
-
+head /etc/passwd
