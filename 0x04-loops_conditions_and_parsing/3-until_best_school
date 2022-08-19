@@ -7,5 +7,5 @@ a=0
 until [ $a -gt 9 ]
 do
 	echo $var
-	((a++))
+	(( a++ ))
 done
