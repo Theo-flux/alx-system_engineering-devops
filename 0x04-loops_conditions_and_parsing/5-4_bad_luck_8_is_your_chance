@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# A Bash script that loops from 1 to 10 and:
+# displays "bad luck" for the 4th loop iteration
+# displays "good luck" for the 8th loop iteration
+# displays "Best School" for the other iterations
+
+best="Best School"
+bad="bad luck"
+good="good luck"
+i=0
+
+while [ $i -lt 10 ];
+do
+	if [ $i -eq 3 ]
+	then
+		echo $bad
+	elif [ $i -eq 7 ]
+	then
+		echo $good
+	else
+		echo $best
+	fi
+	(( i++ ))
+done
