@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# A Bash script that loops from 1 to 20 and:
+# displays "4" and "bad luck" for the 4th loop iteration
+# displays "9" and "good luck" for the 9th loop iteration
+# displays "17" and "Best School" for the 17th iterations
+
+china="bad luck from China"
+japan="bad luck from Japan"
+italy="bad luck from Italy"
+i=1
+
+while [ $i -lt 21 ];
+do
+	echo $i
+	case "$i" in
+		4)
+			echo $china
+			;;
+		9)
+			echo $japan
+			;;
+		17)
+			echo $italy
+			;;
+	esac
+	(( i++ ))
+done
