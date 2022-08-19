@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Until loop to echo "Best Shool" 10 times
+
+var="Best School"
+a=0
+
+until [ $a -gt 9 ]
+do
+	echo $var
+	((a++))
+done
