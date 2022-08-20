@@ -2,5 +2,4 @@
 # Bash script that stops "4-to_infinity_and_beyond" process.
 #+ use kill
 
-processId=`ps -faux | grep bash | grep 4-to_infinity_and_beyond | awk -F ' ' '{print $2}'`
-kill $processId
+kill `ps -faux | grep bash | grep 4-to_infinity_and_beyond | awk -F ' ' '{print $2}'`
