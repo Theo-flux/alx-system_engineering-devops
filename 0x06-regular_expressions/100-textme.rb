@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(//).join
+puts ARGV[0].scan(/(\+?\d{11}|-?[0|1]:-?[0|1]:-?[0|1]:-?[0|1]:-?[0|1])/).join(',')
