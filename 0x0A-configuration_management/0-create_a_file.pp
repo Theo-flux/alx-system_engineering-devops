@@ -1,6 +1,6 @@
 # create a file in /tmp.
-file { '/school':
-  path    => '/tmp',
+
+file { '/tmp/school':c
   mode    => '0744',
   owner   => 'www-data',
   group   => 'www-data',
