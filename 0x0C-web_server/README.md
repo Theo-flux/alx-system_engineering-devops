@@ -24,4 +24,5 @@ For this project, we expect you to look at this concept:
 # Helpers
 1. [scp](https://phoenixnap.com/kb/linux-scp-command)
 2. [Strict host key checking must be disabled when using scp](https://serverfault.com/questions/330503/scp-without-known-hosts-check)
-
+3. [How to Disable Strict Host Key Checking in SSH](https://tecadmin.net/disable-strict-host-key-checking-in-ssh/)
+4. [-y on apt-get command](https://askubuntu.com/questions/672892/what-does-y-mean-in-apt-get-y-install-command)
