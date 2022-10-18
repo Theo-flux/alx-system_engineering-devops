@@ -18,5 +18,10 @@ For this project, we expect you to look at this concept:
 2. [RFC 7540 (HTTP/2)](https://alx-intranet.hbtn.io/rltoken/IZ2fyYn1qNZ9RXXsg5vG1g)
 
 ## man or help
-1. [scp](https://phoenixnap.com/kb/linux-scp-command)
+1. scp
 2. curl
+
+# Helpers
+1. [scp](https://phoenixnap.com/kb/linux-scp-command)
+2. [Strict host key checking must be disabled when using scp](https://serverfault.com/questions/330503/scp-without-known-hosts-check)
+
