@@ -26,3 +26,4 @@ For this project, we expect you to look at this concept:
 2. [Strict host key checking must be disabled when using scp](https://serverfault.com/questions/330503/scp-without-known-hosts-check)
 3. [How to Disable Strict Host Key Checking in SSH](https://tecadmin.net/disable-strict-host-key-checking-in-ssh/)
 4. [-y on apt-get command](https://askubuntu.com/questions/672892/what-does-y-mean-in-apt-get-y-install-command)
+5. [Enable root login over SSH](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/v2v_guide/preparation_before_the_p2v_migration-enable_root_login_over_ssh)
