@@ -27,3 +27,4 @@ For this project, we expect you to look at this concept:
 3. [How to Disable Strict Host Key Checking in SSH](https://tecadmin.net/disable-strict-host-key-checking-in-ssh/)
 4. [-y on apt-get command](https://askubuntu.com/questions/672892/what-does-y-mean-in-apt-get-y-install-command)
 5. [Enable root login over SSH](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/v2v_guide/preparation_before_the_p2v_migration-enable_root_login_over_ssh)
+6. [How to create temporary and permanent redirects with nginx](https://www.digitalocean.com/community/tutorials/how-to-create-temporary-and-permanent-redirects-with-nginx)
