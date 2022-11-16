@@ -25,14 +25,14 @@ if __name__ == "__main__":
         TOTAL_NUMBER_OF_TASKS = len(result)
 
         for k in range(0, len(result)):
-            if result[k].get('completed') == True:
+            if result[k].get('completed') is True:
                 NUMBER_OF_DONE_TASKS.append(result[k].get('title'))
 
     def format_output(name, completed, total):
-        print('Employee {} is done with tasks({}/{}):'.format(name, len(completed), total))
+        print('Employee {} is done with tasks({}/{}):'
+              .format(name, len(completed), total))
 
         for i in completed:
             print('\t{}'.format(i))
 
     format_output(EMPLOYEE_NAME, NUMBER_OF_DONE_TASKS, TOTAL_NUMBER_OF_TASKS)
-
