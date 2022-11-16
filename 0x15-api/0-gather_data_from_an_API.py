@@ -12,21 +12,21 @@ if __name__ == "__main__":
     baseUrl = 'https://jsonplaceholder.typicode.com'
     urlForTodo = '{}/todos?userId={}'.format(baseUrl, id)
     urlForUser = '{}/users?id={}'.format(baseUrl, id)
-    EMPLOYEE_NAME = ""
-    NUMBER_OF_DONE_TASKS = []
-    TOTAL_NUMBER_OF_TASKS = 0
+    name = ""
+    completed_tasks = []
+    total_tasks = 0
 
     with requests.get(urlForUser) as res:
         result = res.json()
-        EMPLOYEE_NAME = result[0].get('name')
+        name = result[0].get('name')
 
     with requests.get(urlForTodo) as res:
         result = res.json()
-        TOTAL_NUMBER_OF_TASKS = len(result)
+        total_tasks = len(result)
 
         for k in range(0, len(result)):
             if result[k].get('completed') is True:
-                NUMBER_OF_DONE_TASKS.append(result[k].get('title'))
+                completed_tasks.append(result[k].get('title'))
 
     def format_output(name, completed, total):
         print('Employee {} is done with tasks({}/{}):'
@@ -35,4 +35,4 @@ if __name__ == "__main__":
         for i in completed:
             print('\t{}'.format(i))
 
-    format_output(EMPLOYEE_NAME, NUMBER_OF_DONE_TASKS, TOTAL_NUMBER_OF_TASKS)
+    format_output(name, completed_tasks, total_tasks)
