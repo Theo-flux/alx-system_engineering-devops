@@ -3,10 +3,10 @@
 python script that returns todo list progress from
 an api
 """
+from sys import argv
+import requests
 
 if __name__ == "__main__":
-    from sys import argv
-    import requests
 
     id = argv[1]
     baseUrl = 'https://jsonplaceholder.typicode.com'
