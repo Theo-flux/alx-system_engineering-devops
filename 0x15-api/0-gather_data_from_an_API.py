@@ -33,6 +33,6 @@ if __name__ == "__main__":
               .format(name, len(completed), total))
 
         for i in completed:
-            print('\t{}'.format(i))
+            print('\t {}'.format(i))
 
     format_output(name, completed_tasks, total_tasks)
