@@ -19,7 +19,7 @@ def recurse(subreddit, hot_list=[], after="", count=0):
         base_url,
         headers=headers,
         params=params,
-        allow_redirects=False
+        # allow_redirects=False
         ).json()
 
     if r.get('data') is None:
