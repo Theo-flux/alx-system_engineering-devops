@@ -8,14 +8,13 @@ the function should return None.
 import requests
 
 
-
 def recurse(subreddit, hot_list=[], after="", count=0):
     if subreddit is None or type(subreddit) is not str:
         return None
 
     base_url = 'https://www.reddit.com/r/{}/hot/.json'.format(subreddit)
     headers = {'User-Agent': '0x16-api_advanced_project'}
-    params={"after": after, "count": count, "limit": 100}
+    params = {"after": after, "count": count, "limit": 100}
     r = requests.get(
         base_url,
         headers=headers,
@@ -25,7 +24,6 @@ def recurse(subreddit, hot_list=[], after="", count=0):
 
     if r.get('data') is None:
         return None
-
 
     after = r.get('data').get('after')
     count += r.get('data').get('dist')
@@ -38,5 +36,3 @@ def recurse(subreddit, hot_list=[], after="", count=0):
         return recurse(subreddit, hot_list, after, count)
     else:
         return hot_list
-
-# recurse("programming")
