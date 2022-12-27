@@ -1,0 +1,9 @@
+# 0x1A. Application server.
+
+## Resources
+
+1. [Application server vs web server](https://alx-intranet.hbtn.io/rltoken/B9fOBzIxX_t1289WAuRzJw)
+2. [How to Serve a Flask Application with Gunicorn and Nginx on Ubuntu 16.04 (As mentioned in the video, do not1. install Gunicorn using virtualenv, just install everything globally)](https://alx-intranet.hbtn.io/rltoken/kpG6RwmwRJHzRmGUM_ERcA)
+3. [Running Gunicorn](https://alx-intranet.hbtn.io/rltoken/2LF1j7xKJGYaUtD1HKgUeQ)
+4. [Be careful with the way Flask manages slash in route - strict_slashes](https://alx-intranet.hbtn.io/rltoken/lEg0zpkkDcLtdl3VD4ACRQ)
+5. [Upstart documentation](https://alx-intranet.hbtn.io/rltoken/mcEsKqFsjJA3tHAjiMknaw)
