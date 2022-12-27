@@ -7,3 +7,9 @@
 3. [Running Gunicorn](https://alx-intranet.hbtn.io/rltoken/2LF1j7xKJGYaUtD1HKgUeQ)
 4. [Be careful with the way Flask manages slash in route - strict_slashes](https://alx-intranet.hbtn.io/rltoken/lEg0zpkkDcLtdl3VD4ACRQ)
 5. [Upstart documentation](https://alx-intranet.hbtn.io/rltoken/mcEsKqFsjJA3tHAjiMknaw)
+
+## identify process running on a port:
+1. sudo lsof -ti:${5000}
+
+## kill process
+1. sudo kill -9 $(lsof -ti:${PORT})
