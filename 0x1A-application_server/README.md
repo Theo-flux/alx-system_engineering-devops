@@ -13,3 +13,6 @@
 
 ## kill process
 1. sudo kill -9 $(lsof -ti:${PORT})
+
+## Others
+1. [identify process running on a particular port](https://remarkablemark.org/blog/2016/06/06/kill-used-port/)
