@@ -14,5 +14,9 @@
 ## kill process
 1. sudo kill -9 $(lsof -ti:${PORT})
 
+## stop agent commands running in background
+sudo systemctl stop datadog-agent
+sudo systemctl disable datadog-agent
+
 ## Others
 1. [identify process running on a particular port](https://remarkablemark.org/blog/2016/06/06/kill-used-port/)
