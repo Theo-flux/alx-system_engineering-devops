@@ -18,5 +18,8 @@
 sudo systemctl stop datadog-agent
 sudo systemctl disable datadog-agent
 
+## Nginx Configuration steps
+1. [Nginx config.](https://ubiq.co/tech-blog/change-nginx-port-number-ubuntu/)
+
 ## Others
 1. [identify process running on a particular port](https://remarkablemark.org/blog/2016/06/06/kill-used-port/)
