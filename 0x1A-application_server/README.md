@@ -1,7 +1,6 @@
 # 0x1A. Application server.
 
 ## Resources
-
 1. [Application server vs web server](https://alx-intranet.hbtn.io/rltoken/B9fOBzIxX_t1289WAuRzJw)
 2. [How to Serve a Flask Application with Gunicorn and Nginx on Ubuntu 16.04 (As mentioned in the video, do not1. install Gunicorn using virtualenv, just install everything globally)](https://alx-intranet.hbtn.io/rltoken/kpG6RwmwRJHzRmGUM_ERcA)
 3. [Running Gunicorn](https://alx-intranet.hbtn.io/rltoken/2LF1j7xKJGYaUtD1HKgUeQ)
@@ -23,3 +22,8 @@ sudo systemctl disable datadog-agent
 
 ## Others
 1. [identify process running on a particular port](https://remarkablemark.org/blog/2016/06/06/kill-used-port/)
+
+## Gunicorn and Nginx
+* Gunicorn is a pure-Python HTTP server for WSGI applications. It allows you to run any Python application concurrently by running multiple Python processes within a single dyno. It is basically an application server
+
+* Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. 
